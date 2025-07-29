@@ -1,0 +1,97 @@
+/* Example CSS file - demonstrating color replacement functionality */
+
+/* Using nested structure colors */
+.header {
+  background-color: Gray/800;
+  color: Gray/50;
+  border-bottom: 1px solid Gray/200;
+}
+
+.navigation {
+  background: Blue/600;
+  color: Gray/50;
+}
+
+.sidebar {
+  background-color: Gray/100;
+  border-right: 1px solid Gray/300;
+}
+
+/* Using flat structure colors */
+.button-primary {
+  background: primary;
+  color: Gray/50;
+  border: 1px solid primary;
+}
+
+.button-secondary {
+  background: secondary;
+  color: Gray/50;
+}
+
+.text-primary {
+  color: primary;
+}
+
+.text-secondary {
+  color: secondary;
+}
+
+/* Status colors */
+.alert-success {
+  background: success;
+  color: Gray/50;
+}
+
+.alert-error {
+  background: error;
+  color: Gray/50;
+}
+
+.alert-warning {
+  background: warning;
+  color: Gray/900;
+}
+
+.normal-color {
+  background: #FEF3C7; /* Regular color values won't be replaced */
+}
+
+/* Color names in different contexts */
+
+/* Complex CSS properties */
+.complex-element {
+  background: linear-gradient(45deg, primary, secondary);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid Blue/500;
+}
+
+.multiple-properties {
+  color: Gray/800;
+  background-color: surface;
+  text-shadow: 1px 1px 2px text-secondary;
+  border-left: 4px solid success;
+  border-right: 4px solid error;
+}
+
+.pseudo-selectors:hover {
+  background-color: Blue/700;
+  color: Gray/50;
+}
+
+.pseudo-selectors:focus {
+  outline: 2px solid primary;
+}
+
+/* Gradients and complex values */
+.gradient-bg {
+  background: linear-gradient(135deg, primary 0%, Blue/600 50%, secondary 100%);
+}
+
+/* Colors in media queries */
+@media (max-width: 768px) {
+  .responsive-element {
+    background: Gray/100;
+    color: Gray/800;
+  }
+} 

@@ -1,0 +1,45 @@
+# Development and test files
+test/
+example/
+node_modules/
+
+# Version control
+.git/
+.gitignore
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env*
+
+# Build and cache files
+.cache/
+dist/
+build/
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package manager lock files (keep package-lock.json for developers)
+yarn.lock
+
+# Other files not needed for publishing
+.github/
+docs/
+scripts/ 

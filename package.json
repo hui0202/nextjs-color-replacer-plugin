@@ -1,6 +1,6 @@
 {
   "name": "nextjs-color-replacer-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive Next.js plugin that replaces custom color names with configured color values during build time. Supports CSS, CSS-in-JS, MUI, and inline styles.",
   "main": "index.js",
   "types": "index.d.ts",
